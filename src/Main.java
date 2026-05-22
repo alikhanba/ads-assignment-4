@@ -20,8 +20,6 @@ public class Main {
 
         Experiment experiment = new Experiment(graphs.length);
         experiment.runMultipleTests(graphs, labels);
-
-
         experiment.printResults();
     }
 
