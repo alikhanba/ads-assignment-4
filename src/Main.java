@@ -8,7 +8,7 @@ public class Main {
         Graph largeGraph  = buildGraph(100, 350, false);  // 100 vertices
 
 
-        System.out.println("======== SMALL GRAPH STRUCTURE ========");
+        System.out.println("SMALL GRAPH STRUCTURE ");
         smallGraph.printGraph();
 
         Graph[]  graphs = { smallGraph, mediumGraph, largeGraph };
