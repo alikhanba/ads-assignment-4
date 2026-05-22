@@ -6,8 +6,8 @@ This project implements a graph in Java using an adjacency list. A graph is made
 
 The program runs two graph traversal algorithms:
 
-- Breadth-First Search (BFS)
-- Depth-First Search (DFS)
+Breadth-First Search (BFS)
+ Depth-First Search (DFS)
 
 BFS explores vertices level by level. DFS explores one path as far as possible before backtracking.
 
