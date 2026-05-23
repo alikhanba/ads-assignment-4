@@ -30,7 +30,7 @@ assignment4/
 
 ### Vertex
 
-Vertex represents one node in the graph.
+Vertex represents one node in the g.
 
 - Field: id
 - Methods: constructor, getId(), toString()
@@ -50,7 +50,7 @@ Graph stores vertices and edges using an adjacency list.
 - addVertex(Vertex v) adds a vertex.
 - addEdge(int from, int to) adds an edge between two existing vertices.
 - printGraph() prints each vertex and its neighbors.
-- bfs(int start) prints BFS traversal from a starting vertex.
+- bfs(int start) prints BFS traversal from a starting v
 - dfs(int start) prints DFS traversal from a starting vertex.
 
 The graph is undirected by default, so adding edge `0-1` also allows traversal from `1` back to `0`.
@@ -117,9 +117,9 @@ Time complexity: `O(V + E)`.
 
 | Vertices | Edges | BFS Time (ns) | DFS Time (ns) |
 |---------:|------:|--------------:|--------------:|
-| 10       | 17    | 153303        | 30521         |
-| 30       | 57    | 195977        | 71728         |
-| 100      | 197   | 271126        | 128090        |
+| 10       | 20    | 153303        | 30521         |
+| 30       | 60    | 195977        | 71728         |
+| 100      | 200   | 271126        | 128090        |
 
 ## Analysis Questions
 
