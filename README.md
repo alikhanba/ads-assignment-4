@@ -130,24 +130,6 @@ BFS is preferred when the shortest path is needed in an unweighted graph, or whe
 
 DFS does not guarantee the shortest path. Recursive DFS can also use a lot of stack memory on very deep graphs. DFS must track visited vertices to avoid infinite loops in graphs with cycles.
 
-## Screenshots
-
-### Graph Structure Output
-
-![Graph structure output](docs/screenshots/graph-output.png)
-
-### BFS Traversal Output
-
-![BFS traversal output](docs/screenshots/bfs-output.png)
-
-### DFS Traversal Output
-
-![DFS traversal output](docs/screenshots/dfs-output.png)
-
-### Performance Results
-
-![Performance output](docs/screenshots/performance-output.png)
-
 ## Reflection
 
 This assignment helped me understand how graphs can be represented with an adjacency list. The adjacency list is simple and efficient because each vertex stores only its direct neighbors.
