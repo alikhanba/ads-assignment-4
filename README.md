@@ -41,6 +41,7 @@ Edge represents a connection between two vertices.
 
 - Fields: source, destination
 - Methods: constructor, getters, toString()
+- The weight field was added to support weighted edges. A getter getWeight() was also added, and the constructor now takes a third int weight parameter.
 
 ### Graph
 
@@ -77,6 +78,22 @@ Use cases:
 - Checking connected components
 
 Time complexity: O(V + E), where V is vertices and E is edges.
+
+### Dijikstra algorithm anad How it works
+
+Set distance to the start vertex = 0, all others = infinity.
+Pick the unvisited vertex with the smallest known distance.
+For each of its neighbors, check if the path through the current vertex is shorter than the known distance — if yes, update it. This is called relaxation.
+Mark the current vertex as visited (finalized).
+Repeat until all vertices are visited or remaining ones are unreachable.
+
+Use cases:
+
+GPS navigation and route planning
+Network routing protocols
+Finding cheapest flights between cities
+
+Time Complexity: O(V²) with simple arrays and loops (as used here). Can be reduced to O((V + E) log V) with a priority queue.
 
 ### DFS
 
